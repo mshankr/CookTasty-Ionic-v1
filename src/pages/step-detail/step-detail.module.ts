@@ -2,20 +2,18 @@ import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { IonicPageModule } from 'ionic-angular';
 
-import { ListMasterPage } from './list-master';
-import { RandomPipe } from './random.pipe';
+import { StepDetailPage } from './step-detail';
 
 @NgModule({
   declarations: [
-    ListMasterPage,
-    RandomPipe
+    StepDetailPage,
   ],
   imports: [
-    IonicPageModule.forChild(ListMasterPage),
+    IonicPageModule.forChild(StepDetailPage),
     TranslateModule.forChild()
   ],
   exports: [
-    ListMasterPage
+    StepDetailPage
   ]
 })
-export class ListMasterPageModule { }
+export class StepDetailPageModule { }
