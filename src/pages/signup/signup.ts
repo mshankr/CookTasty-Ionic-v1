@@ -44,7 +44,7 @@ export class SignupPage {
       // Unable to sign up
       let toast = this.toastCtrl.create({
         message: this.signupErrorString,
-        duration: 3000,
+        duration: 1500,
         position: 'top'
       });
       toast.present();
