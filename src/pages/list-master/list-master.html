@@ -17,7 +17,8 @@
         </ion-avatar>
         <h2>{{item.name}}</h2>
         <p>{{item.about}}</p>
-        <ion-icon name="heart" mini color="light" item-end></ion-icon>
+        <ion-icon name="heart" [color]="item.isFave" item-end></ion-icon>
+        <!--<ion-icon name="heart" mini [isActive]="false" item-end></ion-icon>-->
       </button>
 
       <ion-item-options>

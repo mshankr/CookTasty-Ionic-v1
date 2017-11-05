@@ -5,7 +5,7 @@
 <ion-content>
   <ion-searchbar (ionInput)="getItems($event)" placeholder="{{ 'SEARCH_PLACEHOLDER' | translate }}"></ion-searchbar>
   <ion-list>
-    <ion-item-sliding *ngFor="let item of currentItems | filterBy: ['isFave']: true">
+    <ion-item-sliding *ngFor="let item of currentItems | filterBy: ['isFave']: 'danger'">
       <button ion-item (click)="openItem(item)">
         <ion-avatar item-start>
           <img [src]="item.profilePic" />
