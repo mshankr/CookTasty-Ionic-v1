@@ -10,6 +10,7 @@ import { Items } from '../../providers/providers';
   templateUrl: 'fave.html'
 })
 export class FavePage {
+  pageTitle: string = "Favourites";
   currentItems: Item[];
 
   constructor(public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {

@@ -8,8 +8,9 @@ export class Items {
 
   defaultItem: any = {
       "name": "Chicken Nuggets",
-      "profilePic": "assets/img/speakers/bear.jpg",
-      "about": "Intermediate",
+    "profilePic": "assets/img/chicken-nuggets.jpg",
+      "about": "Yummy chicken nuggets",
+      "difficulty": "Intermediate",
       "isFave": "lightgray",
       "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
       "steps": [
@@ -17,13 +18,13 @@ export class Items {
           "name": "Step 1",
           "details": "Cut the onions into thin slices.",
           "time": "100",
-          "src": ""
+          "image": 'assets/img/slice-onions.jpg'
         },
         {
           "name": "Step 2",
           "details": "Chop the garlic.",
           "time": "20",
-          "src": ""
+          "image": 'assets/img/garlic1.jpeg'
         }
       ]
     };
@@ -33,8 +34,9 @@ export class Items {
     let items = [
       {
         "name": "Chicken Nuggets",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Intermediate",
+        "profilePic": "assets/img/chicken-nuggets.jpg",
+        "about": "Yummy chicken nuggets",
+        "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
         "steps": [
@@ -42,39 +44,21 @@ export class Items {
             "name": "Step 1",
             "details": "Cut the onions into thin slices.",
             "time": "100",
-            "image": 'assets/img/ica-slidebox-img-1.png'
+            "image": 'assets/img/slice-onions.jpg'
           },
           {
             "name": "Step 2",
             "details": "Chop the garlic.",
             "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
-          },
-          /*{
-            "name": "Step 3",
-            "details": "Fry the chicken for 10 min.",
-            "time": "10",
-            "src": "",
-            "image": 'assets/img/ica-slidebox-img-3.png'
-          },
-          {
-            "name": "Step 3",
-            "details": "Bake the chicken for 50 min.",
-            "time": "50",
-            "image": 'assets/img/ica-slidebox-img-2.png'
-          },
-          {
-            "name": "Step 4",
-            "details": "Bake the chicken for 50 min.",
-            "time": "50",
-            "image": 'assets/img/ica-slidebox-img-4.png'
-          }*/
+            "image": 'assets/img/garlic1.jpeg'
+          }
         ]
       },
       {
         "name": "Nasi Lemak Burger",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
+        "profilePic": "assets/img/nasi-lemak-burger.jpg",
         "about": "Yummy & revolutionary!",
+        "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "danger",
         "steps": [
@@ -82,20 +66,21 @@ export class Items {
             "name": "Step 1",
             "details": "Cut the onions into thin slices.",
             "time": "100",
-            "image": 'assets/img/ica-slidebox-img-1.png'
+            "image": 'assets/img/slice-onions.jpg'
           },
           {
             "name": "Step 2",
             "details": "Chop the garlic.",
             "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
+            "image": 'assets/img/garlic1.jpeg'
           }
           ]
       },
       {
         "name": "Bak Kut Teh",
-        "profilePic": "assets/img/speakers/duck.jpg",
+        "profilePic": "assets/img/BakKutTeh-1.jpg",
         "about": "Steamy peppery goodness",
+        "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
         "steps": [
@@ -103,20 +88,21 @@ export class Items {
             "name": "Step 1",
             "details": "Debone the pork.",
             "time": "100",
-            "image": 'assets/img/ica-slidebox-img-1.png'
+            "image": 'assets/img/Pork-Schnitzel-Recipe-2-600x400.jpg'
           },
           {
             "name": "Step 2",
             "details": "Mix the chilli padi, garlic, onions and spices together.",
             "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
+            "image": 'assets/img/Tabil-Spice-Blend.jpg'
           }
         ]
       },
       {
         "name": "Sliced Fish Soup",
-        "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Intermediate",
+        "profilePic": "assets/img/sliced-fish-soup.jpg",
+        "about": "Especially good for sick days",
+        "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
         "steps": [
@@ -124,20 +110,43 @@ export class Items {
             "name": "Step 1",
             "details": "Scale the fish and remove innards.",
             "time": "100",
-            "image": 'assets/img/ica-slidebox-img-1.png'
+            "image": 'assets/img/2017_05_15_26895_1494828675._large.jpg'
           },
           {
             "name": "Step 2",
             "details": "Season the fish in soy sauce.",
             "time": "20",
+            "image": 'assets/img/images-2.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Ang Ku Kueh",
+        "profilePic": "assets/img/ang-ku-kueh.jpg",
+        "about": "Red and squishy.",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/slice-onions.jpg'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
             "image": 'assets/img/ica-slidebox-img-2.png'
           }
         ]
       },
       {
-        "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant.",
+        "name": "Roti Prata",
+        "profilePic": "assets/img/roti-prata.jpeg",
+        "about": "Crispy and fresh",
+        "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
         "steps": [
@@ -156,9 +165,10 @@ export class Items {
         ]
       },
       {
-        "name": "Ellie Essie",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse.",
+        "name": "Braised Chicken with Mushrooms",
+        "profilePic": "assets/img/braised-chicken.jpg",
+        "about": "Homecooked goodness",
+        "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
         "steps": [
@@ -172,28 +182,7 @@ export class Items {
             "name": "Step 2",
             "details": "Chop the garlic.",
             "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
-          }
-        ]
-      },
-      {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy.",
-        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "lightgray",
-        "steps": [
-          {
-            "name": "Step 1",
-            "details": "Cut the onions into thin slices.",
-            "time": "100",
-            "image": 'assets/img/ica-slidebox-img-1.png'
-          },
-          {
-            "name": "Step 2",
-            "details": "Chop the garlic.",
-            "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
+            "image": 'assets/img/garlic1.jpeg'
           }
         ]
       }

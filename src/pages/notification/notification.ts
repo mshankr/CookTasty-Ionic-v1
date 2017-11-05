@@ -20,33 +20,32 @@ export class NotificationPage {
   notifications: Notification[];
 
   constructor(public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {
-      this.notifications = [
-        {
-          title: "Winson started following you",
-          description: "1h ago",
-          image: "assets/img/speakers/elephant.jpg"
-        },
-        {
-          title: "Stella liked your recipe",
-          description: "1h ago",
-          image: "assets/img/speakers/elephant.jpg"
-        },
-        {
-          title: "Peishan liked your recipe",
-          description: "2h ago",
-          image: "assets/img/speakers/elephant.jpg"
-        },
-        {
-          title: "Stella started following you",
-          description: "2h ago",
-          image: "assets/img/speakers/elephant.jpg"
-        },
-        {
-          title: "Sally liked your recipe",
-          description: "4h ago",
-          image: "assets/img/speakers/elephant.jpg"
-        }
-      ]
-}
-
+    this.notifications = [
+      {
+        title: "Winson started following you",
+        description: "1h ago",
+        image: "assets/img/boy1.jpg"
+      },
+      {
+        title: "Stella liked your recipe",
+        description: "1h ago",
+        image: "assets/img/girl1.jpg"
+      },
+      {
+        title: "Peishan liked your recipe",
+        description: "2h ago",
+        image: "assets/img/girl2.jpg"
+      },
+      {
+        title: "Stella started following you",
+        description: "2h ago",
+        image: "assets/img/girl1.jpg"
+      },
+      {
+        title: "Yang Jie liked your recipe",
+        description: "4h ago",
+        image: "assets/img/boy2.jpeg"
+      }
+    ]
+  }
 }

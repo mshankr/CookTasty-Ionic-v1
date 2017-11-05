@@ -51,6 +51,10 @@ export class ListMasterPage {
     addModal.present();
   }
 
+  toggleFave(item) {
+    this.items.toggleFave(item);
+  }
+
   /**
    * Delete an item from the list of items.
    */
