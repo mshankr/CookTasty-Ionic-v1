@@ -3,8 +3,8 @@
 </ion-header>
 
 <ion-content>
-  <ion-searchbar (ionInput)="getItems($event)" placeholder="{{ 'SEARCH_PLACEHOLDER' | translate }}"></ion-searchbar>
-  <ion-toolbar>Why not try:
+  <ion-searchbar (ionInput)="getItems($event)" placeholder="Search for recipe..."></ion-searchbar>
+  <ion-toolbar>Why not try... |
       <span *ngFor="let item of currentItems | sample: 2; let i = index" nowrap>
         <a (click)="openItem(item)">{{item.name}}</a> |
       </span>
@@ -22,7 +22,7 @@
 
       <ion-item-options>
         <button ion-button color="danger" (click)="deleteItem(item)">
-          {{ 'DELETE_BUTTON' | translate }}
+          Delete
         </button>
       </ion-item-options>
     </ion-item-sliding>

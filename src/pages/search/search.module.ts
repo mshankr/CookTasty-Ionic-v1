@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
 import { IonicPageModule } from 'ionic-angular';
 
 import { SearchPage } from './search';
@@ -9,8 +8,7 @@ import { SearchPage } from './search';
     SearchPage,
   ],
   imports: [
-    IonicPageModule.forChild(SearchPage),
-    TranslateModule.forChild()
+    IonicPageModule.forChild(SearchPage)
   ],
   exports: [
     SearchPage

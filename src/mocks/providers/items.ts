@@ -33,9 +33,9 @@ export class Items {
   constructor() {
     let items = [
       {
-        "name": "Chicken Nuggets",
-        "profilePic": "assets/img/chicken-nuggets.jpg",
-        "about": "Yummy chicken nuggets",
+        "name": "Deep-fried Baked Chicken",
+        "profilePic": "assets/img/KFC-Copycat-Oven-Baked-Fried-Chicken-Tenders_680px_2-landscape.jpg",
+        "about": "Sinful goodness",
         "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
@@ -57,7 +57,7 @@ export class Items {
       {
         "name": "Nasi Lemak Burger",
         "profilePic": "assets/img/nasi-lemak-burger.jpg",
-        "about": "Yummy & revolutionary!",
+        "about": "REVOLUTIONARY!",
         "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "danger",

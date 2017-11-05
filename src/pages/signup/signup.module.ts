@@ -9,8 +9,7 @@ import { SignupPage } from './signup';
     SignupPage,
   ],
   imports: [
-    IonicPageModule.forChild(SignupPage),
-    TranslateModule.forChild()
+    IonicPageModule.forChild(SignupPage)
   ],
   exports: [
     SignupPage
