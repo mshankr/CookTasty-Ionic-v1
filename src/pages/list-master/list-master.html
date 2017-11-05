@@ -4,7 +4,7 @@
 
 <ion-content>
   <ion-searchbar (ionInput)="getItems($event)" placeholder="{{ 'SEARCH_PLACEHOLDER' | translate }}"></ion-searchbar>
-  <ion-toolbar>Recommendations:
+  <ion-toolbar>Why not try:
       <span *ngFor="let item of currentItems | sample: 2; let i = index" nowrap>
         <a (click)="openItem(item)">{{item.name}}</a> |
       </span>

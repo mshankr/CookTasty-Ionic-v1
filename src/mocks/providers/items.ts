@@ -165,9 +165,163 @@ export class Items {
         ]
       },
       {
-        "name": "Braised Chicken with Mushrooms",
+        "name": "Braised Chicken",
         "profilePic": "assets/img/braised-chicken.jpg",
         "about": "Homecooked goodness",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Braised Pork Rice",
+        "profilePic": "assets/img/maxresdefault.jpg",
+        "about": "Best comfort food in the world",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Chicken Rice",
+        "profilePic": "assets/img/item_1.thumbnail.carousel-img.740.416.jpg",
+        "about": "Original recipe from Jurong Chicken Rice hawker",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Spanish Paella",
+        "profilePic": "assets/img/seafood-paella.jpg",
+        "about": "Fanciful seafood paella",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Aglio Olio",
+        "profilePic": "assets/img/2011-01-24-spaghetti-aglio-olio-3.jpg",
+        "about": "Simple is best",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Cheese Omelette",
+        "profilePic": "assets/img/20160323-french-omelet-vicky-wasik--31-thumb-1500xauto-431042.jpg",
+        "about": "Cheese + Egg = Explosion",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Japanese Curry Omurice",
+        "profilePic": "assets/img/omurice(2).jpg",
+        "about": "The best of Japan",
+        "difficulty": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": "lightgray",
+        "steps": [
+          {
+            "name": "Step 1",
+            "details": "Cut the onions into thin slices.",
+            "time": "100",
+            "image": 'assets/img/ica-slidebox-img-1.png'
+          },
+          {
+            "name": "Step 2",
+            "details": "Chop the garlic.",
+            "time": "20",
+            "image": 'assets/img/garlic1.jpeg'
+          }
+        ]
+      },
+      {
+        "name": "Lor Mee",
+        "profilePic": "assets/img/Xin-Mei-Xiang-Lor-Mee-800x531.jpg",
+        "about": "The kids will slurp this up!",
         "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "lightgray",
