@@ -18,7 +18,7 @@
       <img [src]="item.profilePic" class="slide-image" />
       <ion-title>Ingredients</ion-title>
       <div *ngFor="let ingredient of item.ingredients">
-        <p>{{ingredient}}</p>
+        <p id="ingredients" >{{ingredient}}</p>
       </div>
       <ion-title>Steps</ion-title>
       <ion-item *ngFor="let step of item.steps">
@@ -63,7 +63,7 @@
       </button>
     </ion-slide>
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <img [src]="item.profilePic" class="slide-image" />
       <h2 class="slide-title">Finished Cooking!</h2>
       <button ion-button icon-end large clear (click)="startApp()">
         Back to Recipes

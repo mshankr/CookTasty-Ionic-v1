@@ -138,7 +138,7 @@ export class Items {
             "name": "Step 2",
             "details": "Chop the garlic.",
             "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
+            "image": 'assets/img/garlic1.jpeg'
           }
         ]
       },
@@ -154,13 +154,13 @@ export class Items {
             "name": "Step 1",
             "details": "Cut the onions into thin slices.",
             "time": "100",
-            "image": 'assets/img/ica-slidebox-img-1.png'
+            "image": 'assets/img/slice-onions.jpg'
           },
           {
             "name": "Step 2",
             "details": "Chop the garlic.",
             "time": "20",
-            "image": 'assets/img/ica-slidebox-img-2.png'
+            "image": 'assets/img/garlic1.jpeg'
           }
         ]
       },
