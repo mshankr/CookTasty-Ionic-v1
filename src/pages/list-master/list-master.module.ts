@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { IonicPageModule } from 'ionic-angular';
+import { NgArrayPipesModule } from "ngx-pipes/esm";
 
 import { ListMasterPage } from './list-master';
-import { RandomPipe } from './random.pipe';
 
 @NgModule({
   declarations: [
-    ListMasterPage,
-    RandomPipe
+    ListMasterPage
   ],
   imports: [
     IonicPageModule.forChild(ListMasterPage),
-    TranslateModule.forChild()
+    TranslateModule.forChild(),
+    NgArrayPipesModule
   ],
   exports: [
     ListMasterPage
