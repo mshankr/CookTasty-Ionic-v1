@@ -9,14 +9,14 @@
 <ion-content>
  <ion-list>
     <ion-item-sliding *ngFor="let item of currentItems">
-      <button ion-item (click)="openItem(item)">
+      <ion-item>
         <ion-avatar item-start>
           <img [src]="item.profilePic" />
         </ion-avatar>
-        <h2>{{item.name}}</h2>
+        <h2 (click)="openItem(item)">{{item.name}}</h2>
         <p>{{item.about}}</p>
-        <ion-icon name="heart" mini [color]="item.isFave" item-end></ion-icon>
-      </button>
+        <ion-icon name="heart" mini [color]="item.isFave" (click)="toggleFave(item)"item-end></ion-icon>
+      </ion-item>
 
       <ion-item-options>
         <button ion-button color="danger" (click)="deleteItem(item)">

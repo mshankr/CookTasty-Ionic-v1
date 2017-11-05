@@ -36,6 +36,10 @@ export class FavePage {
     this.getItems();
   }
 
+  toggleFave(item) {
+    this.items.toggleFave(item);
+    this.getItems();
+  }
 
   /**
    * Perform a service for the proper items.
