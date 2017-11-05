@@ -7,7 +7,7 @@ export const MainPage = 'TabsPage';
 
 // The initial root pages for our tabs (remove if not using tabs)
 export const Tab1Root = 'ListMasterPage';
-export const Tab2Root = 'ListMasterPage';
+export const Tab2Root = 'FavePage';
 export const Tab3Root = 'ItemCreatePage';
 export const Tab4Root = 'ListMasterPage';
 export const Tab5Root = 'SettingsPage';

@@ -35,6 +35,7 @@ export class Items {
         "profilePic": "assets/img/speakers/bear.jpg",
         "about": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": false,
         "steps": [
           {
             "name": "Step 1",
@@ -74,6 +75,7 @@ export class Items {
         "profilePic": "assets/img/speakers/cheetah.jpg",
         "about": "Yummy & revolutionary!",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": true,
         "steps": [
           {
             "name": "Step 1",
@@ -94,6 +96,7 @@ export class Items {
         "profilePic": "assets/img/speakers/duck.jpg",
         "about": "Steamy peppery goodness",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": false,
         "steps": [
           {
             "name": "Step 1",
@@ -114,6 +117,7 @@ export class Items {
         "profilePic": "assets/img/speakers/eagle.jpg",
         "about": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": false,
         "steps": [
           {
             "name": "Step 1",
@@ -134,6 +138,7 @@ export class Items {
         "profilePic": "assets/img/speakers/elephant.jpg",
         "about": "Ellie is an Elephant.",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": false,
         "steps": [
           {
             "name": "Step 1",
@@ -154,6 +159,7 @@ export class Items {
         "profilePic": "assets/img/speakers/mouse.jpg",
         "about": "Molly is a Mouse.",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": false,
         "steps": [
           {
             "name": "Step 1",
@@ -174,6 +180,7 @@ export class Items {
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "Paul is a Puppy.",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
+        "isFave": false,
         "steps": [
           {
             "name": "Step 1",
