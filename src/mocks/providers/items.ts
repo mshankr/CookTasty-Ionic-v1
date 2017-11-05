@@ -231,11 +231,11 @@ export class Items {
   }
 
   toggleFave(item: Item) {
-    let t = this.items[this.items.indexOf(item)].isFave;
+    let t = this.items[this.items.indexOf(item)]["isFave"];
     if (t === "lightgray") {
-      this.items[this.items.indexOf(item)].isFave = "danger";
+      this.items[this.items.indexOf(item)]["isFave"] = "danger";
     } else if (t === "danger") {
-      this.items[this.items.indexOf(item)].isFave = "lightgray";
+      this.items[this.items.indexOf(item)]["isFave"] = "lightgray";
     }
   }
 }

@@ -7,6 +7,8 @@ import { Tab2Root } from '../pages';
 import { Tab3Root } from '../pages';
 import { Tab4Root } from '../pages';
 import { Tab5Root } from '../pages';
+import {Item} from "../../models/item";
+import {Items} from "../../providers/providers";
 
 @IonicPage()
 @Component({
@@ -26,6 +28,14 @@ export class TabsPage {
   tab4Title = " ";
   tab5Title = " ";
 
-  constructor(public navCtrl: NavController) {
+  currentItems: Item[];
+
+  constructor(public navCtrl: NavController, public items: Items) {
+  }
+
+  getItems() {
+    this.currentItems = this.items.query({
+      isFave: "danger"
+    });
   }
 }

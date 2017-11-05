@@ -13,27 +13,35 @@ export class FavePage {
   currentItems: Item[];
 
   constructor(public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {
-    this.currentItems = this.items.query();
+    this.getItems();
+}
+
+  startApp() {
+    this.getItems();
+    this.navCtrl.setRoot(this.navCtrl.getActive().component, {}, {
+      animate: true,
+      direction: 'forward'
+    });
   }
 
   /**
    * The view loaded, let's query our items for the list
    */
   ionViewDidLoad() {
+    this.getItems();
+  }
+
+  ionViewDidEnter() {
+    this.getItems();
   }
 
 
   /**
    * Perform a service for the proper items.
    */
-  getItems(ev) {
-    let val = ev.target.value;
-    if (!val || !val.trim()) {
-      this.currentItems = this.items.query();
-      return;
-    }
+  getItems() {
     this.currentItems = this.items.query({
-      name: val
+      isFave: "danger"
     });
   }
 
