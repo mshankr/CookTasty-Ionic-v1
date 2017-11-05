@@ -228,4 +228,13 @@ export class Items {
   delete(item: Item) {
     this.items.splice(this.items.indexOf(item), 1);
   }
+
+  toggleFave(item: Item) {
+    let t = this.items[this.items.indexOf(item)].isFave;
+    if (t === "light") {
+      this.items[this.items.indexOf(item)].isFave = "danger";
+    } else if (t === "danger") {
+      this.items[this.items.indexOf(item)].isFave = "light";
+    }
+  }
 }

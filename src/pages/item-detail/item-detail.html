@@ -9,7 +9,7 @@
 
 <ion-content no-bounce>
   <ion-fab top right edge>
-  <button ion-fab mini color="danger"><ion-icon name="heart"></ion-icon></button>
+  <button ion-fab mini color="secondary" (click)="toggleFave()"><ion-icon name="heart" [color]="item.isFave"></ion-icon></button>
   </ion-fab>
 
   <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">

@@ -24,7 +24,7 @@ export class ItemDetailPage {
   minutes2: number;
   seconds2: number;
 
-  constructor(public navCtrl: NavController, navParams: NavParams, public menu: MenuController, items: Items) {
+  constructor(public navCtrl: NavController, navParams: NavParams, public menu: MenuController, public items: Items) {
 
 
     this.item = navParams.get('item') || items.defaultItem;
@@ -40,6 +40,10 @@ export class ItemDetailPage {
 
   onSlideChangeStart(slider) {
     this.showSkip = !slider.isEnd();
+  }
+
+  toggleFave() {
+    this.items.toggleFave(this.item);
   }
 
   ionViewDidEnter() {

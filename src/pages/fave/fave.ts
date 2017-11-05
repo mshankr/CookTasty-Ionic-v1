@@ -55,7 +55,7 @@ export class FavePage {
    * Delete an item from the list of items.
    */
   deleteItem(item) {
-    this.items.delete(item);
+    this.items.toggleFave(item);
   }
 
   /**
