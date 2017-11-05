@@ -7,9 +7,9 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-      "name": "Chicken Nuggets",
-    "profilePic": "assets/img/chicken-nuggets.jpg",
-      "about": "Yummy chicken nuggets",
+      "name": "Deep-fried Baked Chicken",
+    "profilePic": "assets/img/KFC-Copycat-Oven-Baked-Fried-Chicken-Tenders_680px_2-landscape.jpg",
+      "about": "Sinful goodness",
       "difficulty": "Intermediate",
       "isFave": "lightgray",
       "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
@@ -57,7 +57,7 @@ export class Items {
       {
         "name": "Nasi Lemak Burger",
         "profilePic": "assets/img/nasi-lemak-burger.jpg",
-        "about": "REVOLUTIONARY!",
+        "about": "Yummy & revolutionary!",
         "difficulty": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "isFave": "danger",

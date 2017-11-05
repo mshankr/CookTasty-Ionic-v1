@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { IonicPage, NavController, ToastController } from 'ionic-angular';
 
 import { User } from '../../providers/providers';
@@ -24,7 +25,12 @@ export class SignupPage {
 
   constructor(public navCtrl: NavController,
     public user: User,
-    public toastCtrl: ToastController) {
+    public toastCtrl: ToastController,
+    public translateService: TranslateService) {
+
+    this.translateService.get('SIGNUP_ERROR').subscribe((value) => {
+      this.signupErrorString = value;
+    })
   }
 
   doSignup() {
@@ -37,7 +43,7 @@ export class SignupPage {
 
       // Unable to sign up
       let toast = this.toastCtrl.create({
-        message: "Welcome to CookTasty!",
+        message: this.signupErrorString,
         duration: 1500,
         position: 'top'
       });

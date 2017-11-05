@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { IonicPage, NavController, ToastController } from 'ionic-angular';
 
 import { User } from '../../providers/providers';
@@ -23,8 +24,12 @@ export class LoginPage {
 
   constructor(public navCtrl: NavController,
     public user: User,
-    public toastCtrl: ToastController) {
+    public toastCtrl: ToastController,
+    public translateService: TranslateService) {
 
+    this.translateService.get('LOGIN_ERROR').subscribe((value) => {
+      this.loginErrorString = value;
+    })
   }
 
   // Attempt to login in through our User service
@@ -35,7 +40,7 @@ export class LoginPage {
       this.navCtrl.push(MainPage);
       // Unable to log in
       let toast = this.toastCtrl.create({
-        message: "Account created. Welcome to CookTasty!",
+        message: this.loginErrorString,
         duration: 1500,
         position: 'top'
       });

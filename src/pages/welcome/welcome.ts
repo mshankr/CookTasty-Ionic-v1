@@ -16,7 +16,7 @@ import {MainPage} from "../pages";
 export class WelcomePage {
 
   constructor(public navCtrl: NavController,
-              public toastCtrl: ToastController,) { }
+  public toastCtrl: ToastController) { }
 
   login() {
     this.navCtrl.push('LoginPage');
@@ -29,7 +29,6 @@ export class WelcomePage {
   guestLogin() {
     this.navCtrl.push(MainPage);
 
-    // Unable to sign up
     let toast = this.toastCtrl.create({
       message: "Welcome to CookTasty!",
       duration: 1500,

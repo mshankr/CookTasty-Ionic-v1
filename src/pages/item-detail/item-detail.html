@@ -20,7 +20,6 @@
       <div *ngFor="let ingredient of item.ingredients">
         <p id="ingredients" >{{ingredient}}</p>
       </div>
-      <p>Difficulty: {{item.difficulty}}</p>
       <ion-title>Steps</ion-title>
       <ion-item *ngFor="let step of item.steps">
         <p>{{step.name}}. {{step.details}}</p>
