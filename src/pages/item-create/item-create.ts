@@ -30,7 +30,8 @@ export class ItemCreatePage {
       profilePic: [''],
       name: ['', Validators.required],
       about: [''],
-      difficulty: ['']
+      difficulty: [''],
+      isFave: "lightgray"
     });
 
     // Watch the form for changes, and
@@ -78,7 +79,7 @@ export class ItemCreatePage {
    * The user cancelled, so we dismiss without sending data back.
    */
   cancel() {
-    this.viewCtrl.dismiss();
+    this.navCtrl.push(MainPage);
   }
 
   /**
