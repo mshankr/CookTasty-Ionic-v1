@@ -10,6 +10,7 @@ export class Items {
       "name": "Chicken Nuggets",
       "profilePic": "assets/img/speakers/bear.jpg",
       "about": "Intermediate",
+      "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
       "steps": [
         {
           "name": "Step 1",
@@ -22,18 +23,6 @@ export class Items {
           "details": "Chop the garlic.",
           "time": "20",
           "src": ""
-        },
-        {
-          "name": "Step 3",
-          "details": "Fry the chicken for 10 min.",
-          "time": "10",
-          "src": ""
-        },
-        {
-          "name": "Step 3",
-          "details": "Bake the chicken for 50 min.",
-          "time": "50",
-          "src": ""
         }
       ]
     };
@@ -45,6 +34,7 @@ export class Items {
         "name": "Chicken Nuggets",
         "profilePic": "assets/img/speakers/bear.jpg",
         "about": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",
@@ -83,6 +73,7 @@ export class Items {
         "name": "Nasi Lemak Burger",
         "profilePic": "assets/img/speakers/cheetah.jpg",
         "about": "Yummy & revolutionary!",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",
@@ -102,6 +93,7 @@ export class Items {
         "name": "Bak Kut Teh",
         "profilePic": "assets/img/speakers/duck.jpg",
         "about": "Steamy peppery goodness",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",
@@ -121,6 +113,7 @@ export class Items {
         "name": "Sliced Fish Soup",
         "profilePic": "assets/img/speakers/eagle.jpg",
         "about": "Intermediate",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",
@@ -140,6 +133,7 @@ export class Items {
         "name": "Ellie Elephant",
         "profilePic": "assets/img/speakers/elephant.jpg",
         "about": "Ellie is an Elephant.",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",
@@ -159,6 +153,7 @@ export class Items {
         "name": "Ellie Essie",
         "profilePic": "assets/img/speakers/mouse.jpg",
         "about": "Molly is a Mouse.",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",
@@ -178,6 +173,7 @@ export class Items {
         "name": "Paul Puppy",
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "Paul is a Puppy.",
+        "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
         "steps": [
           {
             "name": "Step 1",

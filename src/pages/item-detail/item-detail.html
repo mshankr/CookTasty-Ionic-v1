@@ -8,7 +8,25 @@
 
 
 <ion-content no-bounce>
+  <ion-fab top right edge>
+  <button ion-fab mini color="danger"><ion-icon name="heart"></ion-icon></button>
+  </ion-fab>
+
   <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">
+
+    <ion-slide>
+      <img [src]="item.profilePic" class="slide-image" />
+      <ion-title>Ingredients</ion-title>
+      <div *ngFor="let ingredient of item.ingredients">
+        <p>{{ingredient}}</p>
+      </div>
+      <ion-title>Steps</ion-title>
+      <ion-item *ngFor="let step of item.steps">
+        <p>{{step.name}}. {{step.details}}</p>
+      </ion-item>
+
+    </ion-slide>
+
     <ion-slide *ngFor="let slide of item.steps">
       <img [src]="slide.image" class="slide-image" />
       <h2 class="slide-title" [innerHTML]="slide.name"></h2>
