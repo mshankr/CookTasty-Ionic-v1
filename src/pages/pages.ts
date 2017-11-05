@@ -9,5 +9,5 @@ export const MainPage = 'TabsPage';
 export const Tab1Root = 'ListMasterPage';
 export const Tab2Root = 'FavePage';
 export const Tab3Root = 'ItemCreatePage';
-export const Tab4Root = 'ListMasterPage';
+export const Tab4Root = 'NotificationPage';
 export const Tab5Root = 'SettingsPage';

@@ -43,7 +43,8 @@ export class MyApp {
     { title: 'Menu', component: 'MenuPage' },
     { title: 'Settings', component: 'SettingsPage' },
     { title: 'Search', component: 'SearchPage' },
-    { title: 'Nasi Lemak Burger', component: 'NasiLemakBurgerPage' }
+    { title: 'Nasi Lemak Burger', component: 'NasiLemakBurgerPage' },
+    { title: 'Notifications', component: 'NotificationPage' }
   ]
 
   constructor(private translate: TranslateService, platform: Platform, settings: Settings, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
