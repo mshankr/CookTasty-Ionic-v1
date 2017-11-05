@@ -10,6 +10,7 @@ export class Items {
       "name": "Chicken Nuggets",
       "profilePic": "assets/img/speakers/bear.jpg",
       "about": "Intermediate",
+      "isFave": "lightgray",
       "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
       "steps": [
         {
@@ -35,7 +36,7 @@ export class Items {
         "profilePic": "assets/img/speakers/bear.jpg",
         "about": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "light",
+        "isFave": "lightgray",
         "steps": [
           {
             "name": "Step 1",
@@ -96,7 +97,7 @@ export class Items {
         "profilePic": "assets/img/speakers/duck.jpg",
         "about": "Steamy peppery goodness",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "light",
+        "isFave": "lightgray",
         "steps": [
           {
             "name": "Step 1",
@@ -117,7 +118,7 @@ export class Items {
         "profilePic": "assets/img/speakers/eagle.jpg",
         "about": "Intermediate",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "light",
+        "isFave": "lightgray",
         "steps": [
           {
             "name": "Step 1",
@@ -138,7 +139,7 @@ export class Items {
         "profilePic": "assets/img/speakers/elephant.jpg",
         "about": "Ellie is an Elephant.",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "light",
+        "isFave": "lightgray",
         "steps": [
           {
             "name": "Step 1",
@@ -159,7 +160,7 @@ export class Items {
         "profilePic": "assets/img/speakers/mouse.jpg",
         "about": "Molly is a Mouse.",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "light",
+        "isFave": "lightgray",
         "steps": [
           {
             "name": "Step 1",
@@ -180,7 +181,7 @@ export class Items {
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "Paul is a Puppy.",
         "ingredients": [ "4 onions", "3 garlic cloves", "1 chicken (whole)", "1 tbsp soy sauce"],
-        "isFave": "light",
+        "isFave": "lightgray",
         "steps": [
           {
             "name": "Step 1",
@@ -231,10 +232,10 @@ export class Items {
 
   toggleFave(item: Item) {
     let t = this.items[this.items.indexOf(item)].isFave;
-    if (t === "light") {
+    if (t === "lightgray") {
       this.items[this.items.indexOf(item)].isFave = "danger";
     } else if (t === "danger") {
-      this.items[this.items.indexOf(item)].isFave = "light";
+      this.items[this.items.indexOf(item)].isFave = "lightgray";
     }
   }
 }
