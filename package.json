@@ -28,6 +28,7 @@
     "@ngx-translate/core": "8.0.0",
     "@ngx-translate/http-loader": "^2.0.0",
     "cordova-android": "6.3.0",
+    "cordova-ios": "4.5.3",
     "cordova-plugin-device": "^1.1.4",
     "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-splashscreen": "^4.0.3",
@@ -35,6 +36,7 @@
     "ionic-angular": "3.8.0",
     "ionic-plugin-keyboard": "^2.2.1",
     "ionicons": "3.0.0",
+    "ios-deploy": "^1.9.2",
     "ngx-pipes": "^1.6.6",
     "rxjs": "5.4.3",
     "sw-toolbox": "3.6.0",
@@ -54,7 +56,8 @@
       "cordova-plugin-ionic-webview": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

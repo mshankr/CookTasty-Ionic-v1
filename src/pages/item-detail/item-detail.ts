@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import {IonicPage, MenuController, NavController, NavParams, Platform} from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, MenuController, NavController, NavParams} from 'ionic-angular';
 
-import { Items } from '../../providers/providers';
+import {Items} from '../../providers/providers';
 import {MainPage} from "../pages";
-import { Observable } from 'rxjs/Rx';
+import {Observable} from 'rxjs/Rx';
 
 export interface Slide {
   title: string;

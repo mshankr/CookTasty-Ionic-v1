@@ -1,12 +1,7 @@
-import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { IonicPage, NavController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, NavController} from 'ionic-angular';
 
-import { Tab1Root } from '../pages';
-import { Tab2Root } from '../pages';
-import { Tab3Root } from '../pages';
-import { Tab4Root } from '../pages';
-import { Tab5Root } from '../pages';
+import {Tab1Root, Tab2Root, Tab3Root, Tab4Root, Tab5Root} from '../pages';
 import {Item} from "../../models/item";
 import {Items} from "../../providers/providers";
 

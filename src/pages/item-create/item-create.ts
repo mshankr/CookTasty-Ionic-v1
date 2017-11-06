@@ -1,7 +1,7 @@
-import { Component, ViewChild } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Camera } from '@ionic-native/camera';
-import { IonicPage, NavController, ViewController } from 'ionic-angular';
+import {Component, ViewChild} from '@angular/core';
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {Camera} from '@ionic-native/camera';
+import {IonicPage, NavController, ViewController} from 'ionic-angular';
 import {Items} from "../../mocks/providers/items";
 import {Item} from "../../models/item";
 import {MainPage} from "../pages";

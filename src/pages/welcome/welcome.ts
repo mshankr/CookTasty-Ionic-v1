@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {IonicPage, NavController, ToastController} from 'ionic-angular';
 import {MainPage} from "../pages";
 
